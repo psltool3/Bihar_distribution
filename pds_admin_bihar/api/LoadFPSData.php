@@ -85,6 +85,12 @@ if (!$apiResponse || !is_array($apiResponse)) {
     exit();
 }
 
+// Check for status error code if present (e.g. 404 No Data Found)
+if (isset($apiResponse['status']) && (string)$apiResponse['status'] !== '200') {
+    echo "API returned error status: " . $apiResponse['status'] . " - " . ($apiResponse['message'] ?? 'Unknown error') . "\n";
+    exit();
+}
+
 // Check for old format error code if present
 if (isset($apiResponse['rep_code']) && $apiResponse['rep_code'] !== '200') {
     echo "API returned error code: " . $apiResponse['rep_code'] . "\n";

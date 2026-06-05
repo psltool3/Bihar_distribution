@@ -42,6 +42,7 @@ require('Header.php');
 								<span style="float:right;margin-top:10px;margin-right:13px"><button type="button" onclick="delete_all()"  class="btn btn-danger">Delete All</button></span>
 								<a href="DCPAdd.php" style="float:right;margin-top:10px;margin-right:13px"><button type="button" class="btn btn-success">Add New</button></a>
                                 <a href="api/BulkDCPDownloadEdit.php" style="float:right;margin-top:10px;margin-right:13px"><button type="button" class="btn btn-info">Download Data</button></a>
+                                <a href="api/LoadDCPData.php" style="float:right;margin-top:10px;margin-right:13px"><button type="button" class="btn btn-primary">Load from API</button></a>
                             
 								</br></br>
 								<div>

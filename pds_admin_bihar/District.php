@@ -37,6 +37,7 @@ require('Header.php');
                                     <h3 class="panel-title">Districts Data</h3>
                                 </div>
 								<a href="DistrictAdd.php" style="float:right;margin-top:10px;margin-right:13px"><button type="button" class="btn btn-success">Add New</button></a> 
+                                <a href="api/LoadDistrictData.php" style="float:right;margin-top:10px;margin-right:13px"><button type="button" class="btn btn-primary">Load from API</button></a>
                                 <div class="btn-group pull-right" style="margin-top:10px;margin-right:13px">
                                         <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars"></i> Export Data</button>
                                         <ul class="dropdown-menu">
