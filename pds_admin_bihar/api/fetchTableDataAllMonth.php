@@ -9,7 +9,8 @@ if(!SessionCheck()){
 }
 $message = "";
 $month = $_POST['month'];
-$query = "SELECT * FROM optimised_table WHERE month='$month' ORDER BY last_updated DESC LIMIT 1";
+$year = $_POST['year'];
+$query = "SELECT * FROM optimised_table WHERE month='$month' AND year='$year'";
 $result = mysqli_query($con,$query);
 $response = array();
 $response_data = array();
@@ -22,11 +23,11 @@ while($row = mysqli_fetch_array($result))
 	$temp["applicable"] = $row["applicable"];
 	$temp["last_updated"] = $row["last_updated"];
 	array_push($response,$temp);
-	$query_count = "SELECT * FROM optimiseddata_".$row["id"]." WHERE status<>'implemented' OR status IS NULL";
-	$result_count = mysqli_query($con,$query_count);
-	$numrows_count = mysqli_num_rows($result_count);
-	if($numrows_count!=0){
-		$message = "Please implement all tags of leg2 first";
+	$query_approve = "SELECT * FROM optimiseddata_".$row["id"]." WHERE approve_admin<>'yes' OR approve_admin IS NULL";
+	$result_approve = mysqli_query($con,$query_approve);
+	$numrows_approve = mysqli_num_rows($result_approve);
+	if($numrows_approve != 0){
+		$message = "Please approve all tags of leg2 first";
 	}
 }
 if(count($response)==0){
