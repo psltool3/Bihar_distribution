@@ -1,0 +1,4 @@
+[2026-06-22 11:43:52] User ->  Optimization Start Requested JSON -> ImmutableMultiDict([('month', 'june'), ('year', '2026'), ('type', 'inter'), ('applicable', 'aug'), ('async', '0'), ('client_id', 'admin@pds'), ('job_id', 'cfe124ea-1121-4998-867b-bc078153bdc0')])
+[2026-06-22 11:43:52] Error updating distance matrix: [Errno 2] No such file or directory: 'Backend//Distance_Initial_L2.xlsx'
+[2026-06-22 11:47:49] User ->  Optimization Start Requested JSON -> ImmutableMultiDict([('month', 'june'), ('year', '2026'), ('type', 'inter'), ('applicable', 'july'), ('async', '0'), ('client_id', 'admin@pds'), ('job_id', '9d45de8b-a455-43f8-907e-c45eb4d2391c')])
+[2026-06-22 11:47:49] Error updating distance matrix: [Errno 2] No such file or directory: 'Backend//Distance_Initial_L2.xlsx'

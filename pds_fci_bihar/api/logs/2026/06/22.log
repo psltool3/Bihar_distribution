@@ -1,0 +1,17 @@
+[2026-06-22 12:22:18] User -> DCP Active -> fci@pds| Godown No 01 Nigam Godown Bazar Samiti Araria
+[2026-06-22 12:22:21] User -> DCP Active -> fci@pds| Godown No 01 Nigam Godown Bazar Samiti Araria
+[2026-06-22 12:22:34] User -> DCP Active -> fci@pds| Godown No 01 Nigam Godown Bazar Samiti Araria
+[2026-06-22 12:22:35] User -> DCP InActive -> fci@pds| Godown No 01 Nigam Godown Bazar Samiti Araria
+[2026-06-22 12:22:36] User -> DCP Active -> fci@pds| Godown No 01 Nigam Godown Bazar Samiti Araria
+[2026-06-22 12:22:52] User -> DCP Active -> fci@pds| Araria
+[2026-06-22 12:23:17] User -> DCP Active -> fci@pds| Araria
+[2026-06-22 12:26:25] User -> DCP added ->fci@pds| Requested JSON -> {"name":"Akshay","type":"jhv","latitude":"11","longitude":"12","district":"Araria","id":"96570","demand":"1211","demand_rice":"1211"}
+[2026-06-22 12:26:50] User -> DCP deleted -> fci@pds| Requested JSON -> {"uid":"DCP_6a38dc99e44"} | Akshay
+[2026-06-22 12:47:42] User -> DCP InActive -> fci@pds| Godown No 01 Nigam Godown Bazar Samiti Araria
+[2026-06-22 12:47:42] User -> DCP Active -> fci@pds| Godown No 01 Nigam Godown Bazar Samiti Araria
+[2026-06-22 12:47:43] User -> DCP InActive -> fci@pds| Godown No 02 Nigam Godown Bazar Samiti Forbisganj
+[2026-06-22 12:47:43] User -> DCP Active -> fci@pds| Godown No 02 Nigam Godown Bazar Samiti Forbisganj
+[2026-06-22 14:18:17] User -> DCP added ->fci@pds| Requested JSON -> {"name":"Akshay","type":"ew","latitude":"11","longitude":"12","district":"Araria","id":"900","demand":"1211","demand_rice":"1211"}
+[2026-06-22 14:18:25] User -> DCP deleted -> fci@pds| Requested JSON -> {"uid":"DCP_6a38f6d1d56"} | Akshay
+[2026-06-22 14:18:27] User -> DCP Active -> fci@pds| Godown No17 Narpatganj Vyaparmandal Godown Narpatganj Araria
+[2026-06-22 14:18:29] User -> DCP Active -> fci@pds| Godown No13 Hasanpur Pacs Godown Prakhand Raniganj

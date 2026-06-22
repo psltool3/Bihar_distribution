@@ -119,7 +119,7 @@ while($row = mysqli_fetch_assoc($result)){
 										while($row = mysqli_fetch_array($result))
 										{
 											$temp_id = (string)$row['id'];
-											$email = $uid_email[$row['user_id']];
+											$email = isset($uid_email[$row['user_id']]) ? $uid_email[$row['user_id']] : "Unknown (" . $row['user_id'] . ")";
 											echo "<tr><td>{$email}</td>".
 											 "<td>{$row['message']}</td>".
 											 "<td>{$row['date']}</td>".

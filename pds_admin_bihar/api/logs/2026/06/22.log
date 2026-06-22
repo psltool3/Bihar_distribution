@@ -1,0 +1,24 @@
+[2026-06-22 11:46:54] User -> Send  Message ->admin@pds| Requested JSON -> {"message":"sdfdsf","uniqueid":"all"} | 
+[2026-06-22 12:04:18] User -> User Add ->admin@pds| Requested JSON -> {"newusername":"fci@pds","district":"fci","newpassword":"Fci@123"} | fci@pds
+[2026-06-22 12:47:23] User -> User Add ->admin@pds| Requested JSON -> {"newusername":"fci@pds","district":"fci","newpassword":"Fci@123"} | fci@pds
+[2026-06-22 14:11:23] User -> Send  Message ->admin@pds| Requested JSON -> {"message":"hlo","uniqueid":"all"} | 
+[2026-06-22 14:11:47] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"1ace1fb45f"} | 
+[2026-06-22 14:11:50] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"772429f51b"} | 
+[2026-06-22 14:11:59] User -> Send  Message ->admin@pds| Requested JSON -> {"message":"Akshay","uniqueid":"all"} | 
+[2026-06-22 14:12:08] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"ddab3245d9"} | Banka@pds
+[2026-06-22 14:12:11] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"d09bd71c7e"} | Supaul@pds
+[2026-06-22 14:12:14] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"f1b60ce3ab"} | br@fci
+[2026-06-22 14:12:16] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"271b8b9617"} | Arwal@pds
+[2026-06-22 14:12:18] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"feb09d195e"} | Bhojpur@pds
+[2026-06-22 14:12:20] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"b4f73fcd4a"} | Purbi Champaran@pds
+[2026-06-22 14:12:23] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"525ae90347"} | Nawada@pds
+[2026-06-22 14:12:25] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"0ef5286d38"} | Lakhisarai@pds
+[2026-06-22 14:12:27] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"7d642bc171"} | Jehanabad@pds
+[2026-06-22 14:12:29] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"73c70238f7"} | Samastipur@pds
+[2026-06-22 14:12:32] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"3017e448fd"} | Sitamarhi@pds
+[2026-06-22 14:12:34] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"6151b651e5"} | araria@pds
+[2026-06-22 14:12:37] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"f2d68c2a12"} | Siwan@pds
+[2026-06-22 14:12:40] User -> Delete Message ->admin@pds| Requested JSON -> {"uid":"8cc68b8109"} | Munger@pds
+[2026-06-22 14:16:31] User -> Delete User ->admin@pds| Requested JSON -> {"uid":"6a365c40dedfe"} | Fci@123
+[2026-06-22 14:17:10] User -> User Add ->admin@pds| Requested JSON -> {"newusername":"fci@pds","district":"fci","newpassword":"Fci@123"} | fci@pds
+[2026-06-22 14:48:33] User -> Delete Message ->fci@pds| Requested JSON -> {"uid":"c3aeb2076a"} | East_Champaran@pds

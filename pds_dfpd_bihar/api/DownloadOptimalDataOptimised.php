@@ -44,7 +44,7 @@ if (isset($_GET['format'])) {
 				$row["from_name"] = $row['new_name_admin'];
 				$row["distance"] = $row['new_distance_admin'];
 			}
-			else if(($row['new_id_district']!=null or $row['new_id_district']!="") and $row['admin_approve']=="yes"){
+			else if(($row['new_id_district']!=null or $row['new_id_district']!="") and $row['approve_admin']=="yes"){
 				$id = $row['new_id_district'];
 				$query_warehouse = "SELECT latitude,longitude,district FROM warehouse WHERE id='$id'";
 				$result_warehouse = mysqli_query($con,$query_warehouse);
@@ -92,7 +92,7 @@ if (isset($_GET['format'])) {
 					$row["from_name"] = $row['new_name_admin'];
 					$row["distance"] = $row['new_distance_admin'];
 				}
-				else if(($row['new_id_district']!=null or $row['new_id_district']!="") and $row['admin_approve']=="yes"){
+				else if(($row['new_id_district']!=null or $row['new_id_district']!="") and $row['approve_admin']=="yes"){
 					$id = $row['new_id_district'];
 					$query_warehouse = "SELECT latitude,longitude,district FROM warehouse WHERE id='$id'";
 					$result_warehouse = mysqli_query($con,$query_warehouse);

@@ -3,8 +3,8 @@ require('util/Connection.php');
 require('util/SessionCheck.php');
 require('Header.php');
 
-$id = $_POST['id'];
-$tablename = "dcp_".$id;
+$id = isset($_POST['id']) ? $_POST['id'] : '';
+$tablename = "dcp";
 
 ?>
 <style>
@@ -48,13 +48,13 @@ $tablename = "dcp_".$id;
                                         <thead>
                                             <tr>
 												<th style="font-size:16px">District</th>
-												<th style="font-size:16px">Name of DCP</th>
-												<th style="font-size:16px">DCP ID</th>
-												<th style="font-size:16px">Type of DCP</th>
+												<th style="font-size:16px">Name of FCI</th>
+												<th style="font-size:16px">FCI ID</th>
+												<th style="font-size:16px">Type</th>
 												<th style="font-size:16px">Latitude</th>
 												<th style="font-size:16px">Longitude</th>
-												<th style="font-size:16px">Rice Procurement(Qtl)</th>
-												<th style="font-size:16px">Wheat Procurement(Qtl)</th>
+												<th style="font-size:16px">Allotement of Wheat(Qtl)</th>
+												<th style="font-size:16px">Allotement of FRice(Qtl)</th>
                                             </tr>
                                         </thead>
                                         <tbody>

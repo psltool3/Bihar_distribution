@@ -60,6 +60,7 @@ function decryptPassword() {
 												   <span class="input-group-addon"><span class="fa fa-info"></span></span>
                                                     <select class="form-control" id="district" name="district">
 														<option value="admin">Admin</option>
+                                                        <option value="fci">FCI</option>
                                                     </select>
 													</div>
                                                     <span class="help-block">District Name/Admin Role</span>
